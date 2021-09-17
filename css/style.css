@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+
+/*global css code start*/
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+    
+   
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+
+.col-12{
+    width: 100%;
+    float: left;
+}
+
+.col-3{
+    width: 26%;
+    float: left;
+}
+
+.col-4{
+    width:37%;
+    float: left;
+}
+
+/*global css code end*/
+
+
+
+
+
+/*top side start*/
+
+
+.header{
+    width: 100%;
+    float: left;
+}
+.header  .left{
+   background-color: #015761;
+   height: 570px;
+    
+}
+
+.header h3{
+    font-size: 14px;
+    color: #F7DC4F;
+    padding: 20px 0px 15px 25px;
+}
+
+.header .menu{
+    text-align: left;
+    display:block;
+}
+
+.header .menu li{
+
+    display: inline-block;
+}
+
+.header .menu li a{
+    font-size: 12px;
+    color: white;
+    padding: 20px 4px 0px 25px;
+    text-decoration: none;
+}
+
+.header p{
+    text-align: justify;
+    line-height:50px;
+    margin: 120px;
+    color:#F7DC4F ;
+    font-size: 20px;
+    
+}
+
+.header p span{
+    color: white;
+    font-size: 65px;
+}
+
+.header .cualification{
+    color: white;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.col-6{
+    position: relative;
+}
+
+.col-6 .icon {
+    position: fixed;
+    top: 190px;
+    right: 38px;
+    background-color: #F7DC4F;
+    padding: 7px;
+}
+
+.icon .social-icons li {
+    list-style: none;
+    
+}
+.icon .social-icons li a{
+    color: black;
+    transition: .7s;
+
+}
+
+.icon .social-icons li a:hover{
+    color:#f83c3c;
+    
+
+}
+
+
+/*top side end*/
+
+
+/*About Section start*/
+.about-section .row .col-12{
+    text-align: center;
+    background-color:#F1F0F0;
+    height: 450px;
+}
+
+.about-section h2{
+    font-size: 40px;
+    color:#015761;
+    margin-top: 60px;
+   
+}
+
+.about-section p{
+    margin-top: 30px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color:#015761 ;
+}
+
+.about-section .btn{
+    background-color: #F7DC4F;
+    color:#015761 ;
+    padding: 10px;
+    border: none;
+  
+}
+
+/*About Section end*/
+
+.showreel h1{
+    margin: 70px 0px 70px 0px;
+    font-size: 60px;
+    text-align: center;
+    color: #015761;
+}
+
+.photo h1{
+    margin: 70px 0px 70px 0px;
+    font-size: 50px;
+    text-align: center;
+    color: #015761;
+}
+
+.photos{
+    width: 100%;
+    
+    float: left;
+    height:265px;
+    
+}
+
+.photos .margin{
+   margin-left: 40px;
+   
+}
+ 
+.photos .margin1{
+    margin-left: 23px;
+}
+
+.photos .margin2{
+    margin-right: 40px;
+}
+
+
+.photos1 .margin3{
+    margin-left: 40px;
+
+}
+
+.photos1 .margin4{
+    margin-left: 40px ;
+   
+}
+
+.photos1 .margin5{
+    margin-left: 40px ;
+   
+}
+
+.contact{
+    width: 100%;
+    float: left;
+    
+}
+
+
+
+
+.contact-det{
+    width: 570px;
+    height: 514px;
+    background-color: #015761;
+    text-align: justify;
+ 
+
+    
+}
+
+.contact-det .text{
+  text-align: justify;
+  margin-left: 130px;
+  padding-top: 65px;
+  color: #FCFDFD;
+
+  
+}
+
+.contact-det h1{
+    font-weight: 750;
+    font-size: 40px;
+    color:#F7DC4F ;
+}
+
+.contact-det h3{
+   padding-top: 20px;
+   padding-bottom: 15px;
+   font-size: 12px;
+  
+}
+
+.contact-det p{
+    font-size: 9px;
+    line-height: 20px;
+}
+
+.social-icons-bottom{
+    display: block;
+    margin: 10px 0px 30px 130px ;
+}
+
+.social-icons-bottom li{
+    display: inline-block;
+    text-decoration: none;
+    
+    
+}
+
+.social-icons-bottom li a {
+    font-size: 11px;
+    color: white;
+    padding: 5px;
+    transition: 2s;
+    
+   
+    
+}
+
+.social-icons-bottom li a:hover{
+    
+    background-color: yellow;
+
+}
+
+.footer{
+    font-size: 9px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+
+   
+
+
+
+
+
